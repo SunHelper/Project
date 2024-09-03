@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define EXTCONTENTBROWSER_ExtAssetData_generated_h
 
-#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h_119_GENERATED_BODY \
+#define FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h_119_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FExtAssetData_Statics; \
 	EXTCONTENTBROWSER_API static class UScriptStruct* StaticStruct();
 
@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> EXTCONTENTBROWSER_API UScriptStruct* StaticStruct<struct FExtAssetData>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h
+#define CURRENT_FILE_ID FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

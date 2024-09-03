@@ -1,0 +1,66 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ExtContentBrowser.1.cpp.obj": [
+			"AssetContextMenu.cpp.obj",
+			"AssetViewSortManager.cpp.obj",
+			"CollectionViewUtils.cpp.obj",
+			"DragDropHandler.cpp.obj",
+			"ExtAssetDragDropOp.cpp.obj",
+			"ExtAssetThumbnail.cpp.obj",
+			"ExtContentBrowserUtils.cpp.obj",
+			"EdGraphNode_ExtDependency.gen.cpp.obj",
+			"EdGraph_ExtDependencyViewer.gen.cpp.obj",
+			"ExtAssetData.gen.cpp.obj",
+			"ExtContentBrowser.init.gen.cpp.obj",
+			"ExtContentBrowserBlueprintLibrary.gen.cpp.obj",
+			"ExtContentBrowserMenuContexts.gen.cpp.obj",
+			"ExtContentBrowserSettings.gen.cpp.obj",
+			"ExtContentBrowserTypes.gen.cpp.obj",
+			"ExtDependencyViewerSchema.gen.cpp.obj"
+		],
+		"Module.ExtContentBrowser.2.cpp.obj": [
+			"ExtFeedbackContextEditor.cpp.obj",
+			"ExtFrontendFilters.cpp.obj",
+			"ExtPackageReader.cpp.obj",
+			"HistoryManager.cpp.obj",
+			"PathContextMenu.cpp.obj",
+			"SExtBuildProgress.cpp.obj",
+			"SMetaDataView.cpp.obj",
+			"EdGraphNode_ExtDependency.cpp.obj",
+			"EdGraph_ExtDependencyViewer.cpp.obj",
+			"ExtDependencyHistoryManager.cpp.obj",
+			"ExtDependencyViewerCommands.cpp.obj",
+			"ExtDependencyViewerSchema.cpp.obj",
+			"SExtDependencyNode.cpp.obj",
+			"SExtDependencyViewer.cpp.obj",
+			"Documentation.cpp.obj",
+			"DocumentationPage.cpp.obj",
+			"DocumentationRedirectRegistry.cpp.obj",
+			"DocumentationStyle.cpp.obj",
+			"SDocumentationAnchor.cpp.obj",
+			"SExtDocumentationToolTip.cpp.obj",
+			"UDNParser.cpp.obj",
+			"ExtAssetData.cpp.obj"
+		],
+		"Module.ExtContentBrowser.3.cpp.obj": [
+			"ExtContentBrowser.cpp.obj",
+			"ExtContentBrowserBlueprintLibrary.cpp.obj",
+			"ExtContentBrowserCommands.cpp.obj",
+			"ExtContentBrowserSettings.cpp.obj",
+			"ExtContentBrowserSingleton.cpp.obj",
+			"ExtContentBrowserStyle.cpp.obj",
+			"ExtPackageUtils.cpp.obj",
+			"SExtContentBrowser.cpp.obj",
+			"ExtAssetViewWidgets.cpp.obj",
+			"ExtSourcesViewWidgets.cpp.obj",
+			"SContentBrowserPathPicker.cpp.obj",
+			"SExtAssetDiscoveryIndicator.cpp.obj",
+			"SExtAssetView.cpp.obj"
+		],
+		"Module.ExtContentBrowser.4.cpp.obj": [
+			"SExtFilterList.cpp.obj",
+			"SExtPathView.cpp.obj"
+		]
+	}
+}

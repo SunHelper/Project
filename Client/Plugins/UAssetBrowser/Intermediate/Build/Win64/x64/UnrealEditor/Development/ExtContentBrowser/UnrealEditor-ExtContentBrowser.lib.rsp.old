@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ExtContentBrowser.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\GitHub\Project\Client\Intermediate\Build\Win64\x64\ClientEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
+"E:\GitHub\Project\Client\Plugins\UAssetBrowser\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExtContentBrowser\Module.ExtContentBrowser.1.cpp.obj"
+"E:\GitHub\Project\Client\Plugins\UAssetBrowser\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExtContentBrowser\Module.ExtContentBrowser.2.cpp.obj"
+"E:\GitHub\Project\Client\Plugins\UAssetBrowser\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExtContentBrowser\Module.ExtContentBrowser.3.cpp.obj"
+"E:\GitHub\Project\Client\Plugins\UAssetBrowser\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExtContentBrowser\Module.ExtContentBrowser.4.cpp.obj"
+"E:\GitHub\Project\Client\Plugins\UAssetBrowser\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExtContentBrowser\Default.rc2.res"
+/OUT:"E:\GitHub\Project\Client\Plugins\UAssetBrowser\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExtContentBrowser\UnrealEditor-ExtContentBrowser.lib"

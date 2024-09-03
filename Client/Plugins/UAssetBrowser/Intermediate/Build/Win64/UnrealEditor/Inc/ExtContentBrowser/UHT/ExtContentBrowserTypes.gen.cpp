@@ -110,9 +110,13 @@ template<> EXTCONTENTBROWSER_API UScriptStruct* StaticStruct<FUAssetImportSettin
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Asset Import Setting\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtContentBrowserTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Asset Import Setting" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewStructOps()
@@ -134,9 +138,13 @@ template<> EXTCONTENTBROWSER_API UScriptStruct* StaticStruct<FUAssetImportSettin
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewProp_bIgnoreSoftReferencesError_MetaData[] = {
 		{ "Category", "Import" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//#if ECB_FEA_IMPORT_IGNORE_SOFT_ERROR\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtContentBrowserTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "#if ECB_FEA_IMPORT_IGNORE_SOFT_ERROR" },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewProp_bIgnoreSoftReferencesError_SetBit(void* Obj)
@@ -147,10 +155,14 @@ template<> EXTCONTENTBROWSER_API UScriptStruct* StaticStruct<FUAssetImportSettin
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewProp_bOverwriteExistingFiles_MetaData[] = {
 		{ "Category", "Import" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//#endif\n" },
+#endif
 		{ "DisplayName", "Overwrite Existing Assets" },
 		{ "ModuleRelativePath", "Public/ExtContentBrowserTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "#endif" },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewProp_bOverwriteExistingFiles_SetBit(void* Obj)
@@ -172,9 +184,13 @@ template<> EXTCONTENTBROWSER_API UScriptStruct* StaticStruct<FUAssetImportSettin
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewProp_bImportFolderColor_MetaData[] = {
 		{ "Category", "Folder" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//#if ECB_WIP_IMPORT_FOLDER_COLOR\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtContentBrowserTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "#if ECB_WIP_IMPORT_FOLDER_COLOR" },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewProp_bImportFolderColor_SetBit(void* Obj)
@@ -196,9 +212,13 @@ template<> EXTCONTENTBROWSER_API UScriptStruct* StaticStruct<FUAssetImportSettin
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewProp_bImportToPluginFolder_MetaData[] = {
 		{ "Category", "Plugin" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//#if ECB_WIP_IMPORT_TO_PLUGIN_FOLDER\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtContentBrowserTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "#if ECB_WIP_IMPORT_TO_PLUGIN_FOLDER" },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewProp_bImportToPluginFolder_SetBit(void* Obj)
@@ -227,10 +247,14 @@ template<> EXTCONTENTBROWSER_API UScriptStruct* StaticStruct<FUAssetImportSettin
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewProp_bSyncAssetsInContentBrowser_MetaData[] = {
 		{ "Category", "PostImport" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//#endif\n" },
+#endif
 		{ "DisplayName", "Sync Imporrted Assets in Content Browser" },
 		{ "ModuleRelativePath", "Public/ExtContentBrowserTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "#endif" },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewProp_bSyncAssetsInContentBrowser_SetBit(void* Obj)
@@ -265,9 +289,13 @@ template<> EXTCONTENTBROWSER_API UScriptStruct* StaticStruct<FUAssetImportSettin
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewProp_bAddImportedAssetsToCollection_MetaData[] = {
 		{ "Category", "Collection" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//#if ECB_WIP_IMPORT_ADD_TO_COLLECTION\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtContentBrowserTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "#if ECB_WIP_IMPORT_ADD_TO_COLLECTION" },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewProp_bAddImportedAssetsToCollection_SetBit(void* Obj)
@@ -332,15 +360,15 @@ template<> EXTCONTENTBROWSER_API UScriptStruct* StaticStruct<FUAssetImportSettin
 		}
 		return Z_Registration_Info_UScriptStruct_UAssetImportSetting.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Public_ExtContentBrowserTypes_h_Statics
+	struct Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Public_ExtContentBrowserTypes_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Public_ExtContentBrowserTypes_h_Statics::ScriptStructInfo[] = {
-		{ FUAssetImportSetting::StaticStruct, Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewStructOps, TEXT("UAssetImportSetting"), &Z_Registration_Info_UScriptStruct_UAssetImportSetting, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FUAssetImportSetting), 2966382491U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Public_ExtContentBrowserTypes_h_Statics::ScriptStructInfo[] = {
+		{ FUAssetImportSetting::StaticStruct, Z_Construct_UScriptStruct_FUAssetImportSetting_Statics::NewStructOps, TEXT("UAssetImportSetting"), &Z_Registration_Info_UScriptStruct_UAssetImportSetting, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FUAssetImportSetting), 2150337709U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Public_ExtContentBrowserTypes_h_3658549519(TEXT("/Script/ExtContentBrowser"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Public_ExtContentBrowserTypes_h_487396369(TEXT("/Script/ExtContentBrowser"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Public_ExtContentBrowserTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Public_ExtContentBrowserTypes_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Public_ExtContentBrowserTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Public_ExtContentBrowserTypes_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

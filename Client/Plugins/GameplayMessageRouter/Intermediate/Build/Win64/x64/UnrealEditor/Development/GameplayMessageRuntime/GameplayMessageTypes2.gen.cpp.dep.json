@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\github\\project\\client\\plugins\\gameplaymessagerouter\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaymessageruntime\\uht\\gameplaymessagetypes2.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\github\\project\\client\\intermediate\\build\\win64\\x64\\clienteditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\github\\project\\client\\plugins\\gameplaymessagerouter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameplaymessageruntime\\definitions.gameplaymessageruntime.h",
+            "e:\\github\\project\\client\\plugins\\gameplaymessagerouter\\source\\gameplaymessageruntime\\public\\gameframework\\gameplaymessagetypes2.h",
+            "d:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "d:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "d:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "e:\\github\\project\\client\\plugins\\gameplaymessagerouter\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaymessageruntime\\uht\\gameplaymessagetypes2.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\github\\project\\client\\plugins\\uassetbrowser\\intermediate\\build\\win64\\unrealeditor\\inc\\extcontentbrowser\\uht\\edgraphnode_extdependency.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\github\\project\\client\\intermediate\\build\\win64\\x64\\clienteditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\extcontentbrowser\\definitions.extcontentbrowser.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\source\\extcontentbrowser\\private\\dependencyviewer\\edgraphnode_extdependency.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\source\\extcontentbrowser\\private\\extassetdata.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\source\\extcontentbrowser\\public\\extcontentbrowser.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\source\\extcontentbrowser\\private\\documentation\\idocumentationprovider.h",
+            "d:\\program files\\epic games\\ue_5.3\\engine\\source\\editor\\documentation\\public\\idocumentation.h",
+            "d:\\program files\\epic games\\ue_5.3\\engine\\source\\editor\\documentation\\public\\idocumentationmodule.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\source\\extcontentbrowser\\private\\documentation\\documentationdefines.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\source\\extcontentbrowser\\public\\extcontentbrowsertypes.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\intermediate\\build\\win64\\unrealeditor\\inc\\extcontentbrowser\\uht\\extcontentbrowsertypes.generated.h",
+            "d:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\editorframework\\assetimportdata.h",
+            "d:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\assetimportdata.generated.h",
+            "d:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\misc\\assetregistryinterface.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\source\\extcontentbrowser\\private\\adapters\\extfeedbackcontexteditor.h",
+            "d:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\hal\\feedbackcontextansi.h",
+            "d:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\misc\\outputdeviceconsole.h",
+            "d:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\misc\\outputdevicehelper.h",
+            "d:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\serialization\\bufferarchive.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\intermediate\\build\\win64\\unrealeditor\\inc\\extcontentbrowser\\uht\\extassetdata.generated.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\source\\extcontentbrowser\\private\\dependencyviewer\\edgraph_extdependencyviewer.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\intermediate\\build\\win64\\unrealeditor\\inc\\extcontentbrowser\\uht\\edgraph_extdependencyviewer.generated.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\intermediate\\build\\win64\\unrealeditor\\inc\\extcontentbrowser\\uht\\edgraphnode_extdependency.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -66,9 +66,13 @@ template<> EXTCONTENTBROWSER_API UScriptStruct* StaticStruct<FExtAssetData>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FExtAssetData_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * A struct to hold external asset information\n */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtAssetData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A struct to hold external asset information" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FExtAssetData_Statics::NewStructOps()
@@ -78,63 +82,91 @@ template<> EXTCONTENTBROWSER_API UScriptStruct* StaticStruct<FExtAssetData>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_PackageFilePath_MetaData[] = {
 		{ "Category", "AssetData" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Full file path to package disk file */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtAssetData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Full file path to package disk file" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_PackageFilePath = { "PackageFilePath", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FExtAssetData, PackageFilePath), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_PackageFilePath_MetaData), Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_PackageFilePath_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_PackageName_MetaData[] = {
 		{ "Category", "AssetData" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The name of the package in which the asset is found, this is the full long package name such as /Game/Path/Package */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtAssetData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The name of the package in which the asset is found, this is the full long package name such as /Game/Path/Package" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_PackageName = { "PackageName", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FExtAssetData, PackageName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_PackageName_MetaData), Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_PackageName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_PackagePath_MetaData[] = {
 		{ "Category", "AssetData" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The path to the package in which the asset is found, this is /Game/Path with the Package stripped off */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtAssetData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The path to the package in which the asset is found, this is /Game/Path with the Package stripped off" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_PackagePath = { "PackagePath", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FExtAssetData, PackagePath), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_PackagePath_MetaData), Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_PackagePath_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_ObjectPath_MetaData[] = {
 		{ "Category", "AssetData" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The object path for the asset in the form PackageName.AssetName. e.g. /Game/Path/Package.AssetName */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtAssetData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The object path for the asset in the form PackageName.AssetName. e.g. /Game/Path/Package.AssetName" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_ObjectPath = { "ObjectPath", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FExtAssetData, ObjectPath), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_ObjectPath_MetaData), Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_ObjectPath_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_AssetName_MetaData[] = {
 		{ "Category", "AssetData" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The name of the asset without the package */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtAssetData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The name of the asset without the package" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_AssetName = { "AssetName", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FExtAssetData, AssetName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_AssetName_MetaData), Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_AssetName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_AssetClass_MetaData[] = {
 		{ "Category", "AssetData" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The name of the asset's class */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtAssetData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The name of the asset's class" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_AssetClass = { "AssetClass", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FExtAssetData, AssetClass), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_AssetClass_MetaData), Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_AssetClass_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_AssetData_MetaData[] = {
 		{ "Category", "AssetData" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Asset data to satisfy FAssetData based interface. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtAssetData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Asset data to satisfy FAssetData based interface." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_AssetData = { "AssetData", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FExtAssetData, AssetData), Z_Construct_UScriptStruct_FAssetData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_AssetData_MetaData), Z_Construct_UScriptStruct_FExtAssetData_Statics::NewProp_AssetData_MetaData) };
@@ -169,15 +201,15 @@ template<> EXTCONTENTBROWSER_API UScriptStruct* StaticStruct<FExtAssetData>()
 		}
 		return Z_Registration_Info_UScriptStruct_ExtAssetData.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h_Statics
+	struct Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h_Statics::ScriptStructInfo[] = {
-		{ FExtAssetData::StaticStruct, Z_Construct_UScriptStruct_FExtAssetData_Statics::NewStructOps, TEXT("ExtAssetData"), &Z_Registration_Info_UScriptStruct_ExtAssetData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FExtAssetData), 2679289834U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h_Statics::ScriptStructInfo[] = {
+		{ FExtAssetData::StaticStruct, Z_Construct_UScriptStruct_FExtAssetData_Statics::NewStructOps, TEXT("ExtAssetData"), &Z_Registration_Info_UScriptStruct_ExtAssetData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FExtAssetData), 2314027442U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h_4174692564(TEXT("/Script/ExtContentBrowser"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h_2653059123(TEXT("/Script/ExtContentBrowser"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtAssetData_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

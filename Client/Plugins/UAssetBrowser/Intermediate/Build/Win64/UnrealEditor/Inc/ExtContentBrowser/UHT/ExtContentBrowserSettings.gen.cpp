@@ -329,29 +329,41 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Implements external content browser settings.  These are global not per-project\n */" },
+#endif
 		{ "IncludePath", "ExtContentBrowserSettings.h" },
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Implements external content browser settings.  These are global not per-project" },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_NumObjectsToLoadBeforeWarning_MetaData[] = {
 		{ "Category", "ContentBrowser" },
 		{ "ClampMin", "1" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The number of objects to load at once in the Content Browser before displaying a warning about loading many assets */" },
+#endif
 		{ "DisplayName", "Assets to Load at Once Before Warning" },
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The number of objects to load at once in the Content Browser before displaying a warning about loading many assets" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_NumObjectsToLoadBeforeWarning = { "NumObjectsToLoadBeforeWarning", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UExtContentBrowserSettings, NumObjectsToLoadBeforeWarning), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_NumObjectsToLoadBeforeWarning_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_NumObjectsToLoadBeforeWarning_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOpenSourcesPanelByDefault_MetaData[] = {
 		{ "Category", "ContentBrowser" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether the Content Browser should open the Sources Panel by default */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether the Content Browser should open the Sources Panel by default" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOpenSourcesPanelByDefault_SetBit(void* Obj)
@@ -361,9 +373,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOpenSourcesPanelByDefault = { "bOpenSourcesPanelByDefault", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOpenSourcesPanelByDefault_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOpenSourcesPanelByDefault_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOpenSourcesPanelByDefault_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayFolders_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether to display folders in the asset view of the content browser. Note that this implies 'Show Only Assets in Selected Folders'. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to display folders in the asset view of the content browser. Note that this implies 'Show Only Assets in Selected Folders'." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayFolders_SetBit(void* Obj)
@@ -373,9 +389,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayFolders = { "DisplayFolders", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayFolders_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayFolders_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayFolders_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEmptyFolders_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether to empty display folders in the asset view of the content browser. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to empty display folders in the asset view of the content browser." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEmptyFolders_SetBit(void* Obj)
@@ -385,9 +405,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEmptyFolders = { "DisplayEmptyFolders", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEmptyFolders_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEmptyFolders_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEmptyFolders_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayAssetTooltip_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether to display tooltip in the asset view. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to display tooltip in the asset view." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayAssetTooltip_SetBit(void* Obj)
@@ -397,9 +421,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayAssetTooltip = { "DisplayAssetTooltip", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayAssetTooltip_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayAssetTooltip_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayAssetTooltip_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEngineVersionOverlay_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether to empty engine version as asset thumbnail overlay */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to empty engine version as asset thumbnail overlay" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEngineVersionOverlay_SetBit(void* Obj)
@@ -409,9 +437,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEngineVersionOverlay = { "DisplayEngineVersionOverlay", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEngineVersionOverlay_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEngineVersionOverlay_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEngineVersionOverlay_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayValidationStatusOverlay_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether to display asset validation result as overlay. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to display asset validation result as overlay." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayValidationStatusOverlay_SetBit(void* Obj)
@@ -421,9 +453,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayValidationStatusOverlay = { "DisplayValidationStatusOverlay", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayValidationStatusOverlay_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayValidationStatusOverlay_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayValidationStatusOverlay_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayContentTypeOverlay_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether to empty content type as asset thumbnail overlay */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to empty content type as asset thumbnail overlay" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayContentTypeOverlay_SetBit(void* Obj)
@@ -433,9 +469,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayContentTypeOverlay = { "DisplayContentTypeOverlay", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayContentTypeOverlay_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayContentTypeOverlay_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayContentTypeOverlay_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayInvalidAssets_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether to show invalid assets in the asset view of the content browser. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to show invalid assets in the asset view of the content browser." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayInvalidAssets_SetBit(void* Obj)
@@ -445,9 +485,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayInvalidAssets = { "DisplayInvalidAssets", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayInvalidAssets_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayInvalidAssets_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayInvalidAssets_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayToolbarButton_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether to display toolbar button. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to display toolbar button." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayToolbarButton_SetBit(void* Obj)
@@ -457,9 +501,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayToolbarButton = { "DisplayToolbarButton", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayToolbarButton_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayToolbarButton_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayToolbarButton_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_SearchAndFilterRecursively_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether search and filter assets recursively. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether search and filter assets recursively." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_SearchAndFilterRecursively_SetBit(void* Obj)
@@ -469,9 +517,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_SearchAndFilterRecursively = { "SearchAndFilterRecursively", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_SearchAndFilterRecursively_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_SearchAndFilterRecursively_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_SearchAndFilterRecursively_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_UseStraightLineInDependencyViewer_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether use straight or spline connect line between nodes in dependency viewer. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether use straight or spline connect line between nodes in dependency viewer." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_UseStraightLineInDependencyViewer_SetBit(void* Obj)
@@ -481,9 +533,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_UseStraightLineInDependencyViewer = { "UseStraightLineInDependencyViewer", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_UseStraightLineInDependencyViewer_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_UseStraightLineInDependencyViewer_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_UseStraightLineInDependencyViewer_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_ShowDependencyViewerUnderAssetView_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether to show dependency viewer under asset view or on the right of asset view. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to show dependency viewer under asset view or on the right of asset view." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_ShowDependencyViewerUnderAssetView_SetBit(void* Obj)
@@ -496,19 +552,27 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 		{ "Category", "ContentBrowser" },
 		{ "ClampMax", "30" },
 		{ "ClampMin", "1" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The number of objects to keep in the Content Browser Recently Opened filter */" },
+#endif
 		{ "DisplayName", "Number of Assets to Keep in the Recently Opened Filter" },
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The number of objects to keep in the Content Browser Recently Opened filter" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_NumObjectsInRecentList = { "NumObjectsInRecentList", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UExtContentBrowserSettings, NumObjectsInRecentList), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_NumObjectsInRecentList_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_NumObjectsInRecentList_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bShowFullCollectionNameInToolTip_MetaData[] = {
 		{ "Category", "ContentBrowser" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether the Content Browser should open the Sources Panel by default */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether the Content Browser should open the Sources Panel by default" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bShowFullCollectionNameInToolTip_SetBit(void* Obj)
@@ -519,9 +583,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bCacheMode_MetaData[] = {
 		{ "Category", "CacheDB" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//////////////////////////\n// Cache Setting\n" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cache Setting" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bCacheMode_SetBit(void* Obj)
@@ -539,9 +607,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bAutoSaveCacheOnExit_MetaData[] = {
 		{ "Category", "CacheDB" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If caching is enabled then it will save cache on close. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If caching is enabled then it will save cache on close." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bAutoSaveCacheOnExit_SetBit(void* Obj)
@@ -563,9 +635,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bKeepCachedAssetsWhenRootRemoved_MetaData[] = {
 		{ "Category", "CacheDB" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If caching is enabled then it will save cache on close. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If caching is enabled then it will save cache on close." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bKeepCachedAssetsWhenRootRemoved_SetBit(void* Obj)
@@ -587,19 +663,27 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_CacheFilePath_MetaData[] = {
 		{ "Category", "CacheDB" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The number of objects to load at once in the Content Browser before displaying a warning about loading many assets */" },
+#endif
 		{ "DisplayName", "Cache Database File Path" },
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The number of objects to load at once in the Content Browser before displaying a warning about loading many assets" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_CacheFilePath = { "CacheFilePath", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UExtContentBrowserSettings, CacheFilePath), Z_Construct_UScriptStruct_FFilePath, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_CacheFilePath_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_CacheFilePath_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bUseThumbnailPool_MetaData[] = {
 		{ "Category", "ThumbnailPool" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//////////////////////////\n// Thumbnail Settings\n" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Thumbnail Settings" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bUseThumbnailPool_SetBit(void* Obj)
@@ -616,9 +700,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_NumThumbnailsInPool = { "NumThumbnailsInPool", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UExtContentBrowserSettings, NumThumbnailsInPool), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_NumThumbnailsInPool_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_NumThumbnailsInPool_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bSkipImportIfAnyDependencyMissing_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//////////////////////////\n// Import Settings\n" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Import Settings" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bSkipImportIfAnyDependencyMissing_SetBit(void* Obj)
@@ -760,9 +848,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOverrideExistingFolderColor = { "bOverrideExistingFolderColor", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOverrideExistingFolderColor_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOverrideExistingFolderColor_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOverrideExistingFolderColor_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bSkipExportIfAnyDependencyMissing_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//////////////////////////\n// Export Settings\n" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Export Settings" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bSkipExportIfAnyDependencyMissing_SetBit(void* Obj)
@@ -812,9 +904,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOpenFolderAfterExport = { "bOpenFolderAfterExport", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOpenFolderAfterExport_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOpenFolderAfterExport_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bOpenFolderAfterExport_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bIgnoreFoldersStartWithDot_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//////////////////////////\n// Folder Tree Settings\n" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Folder Tree Settings" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_bIgnoreFoldersStartWithDot_SetBit(void* Obj)
@@ -861,9 +957,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_IgnoreFolders = { "IgnoreFolders", nullptr, (EPropertyFlags)0x0010000000004000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UExtContentBrowserSettings, IgnoreFolders), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_IgnoreFolders_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_IgnoreFolders_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEngineFolder_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether to display the engine folder in the assets view of the content browser. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to display the engine folder in the assets view of the content browser." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEngineFolder_SetBit(void* Obj)
@@ -873,9 +973,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEngineFolder = { "DisplayEngineFolder", nullptr, (EPropertyFlags)0x0040000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEngineFolder_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEngineFolder_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayEngineFolder_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayDevelopersFolder_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether to display the developers folder in the path view of the content browser */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to display the developers folder in the path view of the content browser" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayDevelopersFolder_SetBit(void* Obj)
@@ -895,9 +999,13 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayL10NFolder = { "DisplayL10NFolder", nullptr, (EPropertyFlags)0x0040000000004000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UExtContentBrowserSettings), &Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayL10NFolder_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayL10NFolder_MetaData), Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayL10NFolder_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayPluginFolders_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of plugin folders to display in the content browser. */" },
+#endif
 		{ "ModuleRelativePath", "Private/ExtContentBrowserSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of plugin folders to display in the content browser." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UExtContentBrowserSettings_Statics::NewProp_DisplayPluginFolders_SetBit(void* Obj)
@@ -1060,15 +1168,15 @@ void EmptyLinkFunctionForGeneratedCodeExtContentBrowserSettings() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UExtContentBrowserSettings);
 	UExtContentBrowserSettings::~UExtContentBrowserSettings() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtContentBrowserSettings_h_Statics
+	struct Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtContentBrowserSettings_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtContentBrowserSettings_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UExtContentBrowserSettings, UExtContentBrowserSettings::StaticClass, TEXT("UExtContentBrowserSettings"), &Z_Registration_Info_UClass_UExtContentBrowserSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UExtContentBrowserSettings), 3369759340U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtContentBrowserSettings_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UExtContentBrowserSettings, UExtContentBrowserSettings::StaticClass, TEXT("UExtContentBrowserSettings"), &Z_Registration_Info_UClass_UExtContentBrowserSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UExtContentBrowserSettings), 1169288192U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtContentBrowserSettings_h_569130102(TEXT("/Script/ExtContentBrowser"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtContentBrowserSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtContentBrowserSettings_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtContentBrowserSettings_h_2700953669(TEXT("/Script/ExtContentBrowser"),
+		Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtContentBrowserSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Client_Plugins_UAssetBrowser_Source_ExtContentBrowser_Private_ExtContentBrowserSettings_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

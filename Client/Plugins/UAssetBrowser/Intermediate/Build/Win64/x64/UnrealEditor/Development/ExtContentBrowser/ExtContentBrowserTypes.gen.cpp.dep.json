@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\github\\project\\client\\plugins\\uassetbrowser\\intermediate\\build\\win64\\unrealeditor\\inc\\extcontentbrowser\\uht\\extcontentbrowsertypes.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\github\\project\\client\\intermediate\\build\\win64\\x64\\clienteditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\extcontentbrowser\\definitions.extcontentbrowser.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\source\\extcontentbrowser\\public\\extcontentbrowsertypes.h",
+            "e:\\github\\project\\client\\plugins\\uassetbrowser\\intermediate\\build\\win64\\unrealeditor\\inc\\extcontentbrowser\\uht\\extcontentbrowsertypes.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\github\\project\\client\\plugins\\gameplaymessagerouter\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaymessagenodes\\uht\\gameplaymessagenodes.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\github\\project\\client\\intermediate\\build\\win64\\x64\\clienteditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "e:\\github\\project\\client\\plugins\\gameplaymessagerouter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameplaymessagenodes\\definitions.gameplaymessagenodes.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
